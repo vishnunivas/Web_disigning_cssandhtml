@@ -1,0 +1,110 @@
+.top
+{
+    width: 100%;
+    height: 100px;
+    border: 2px blueviolet;
+}
+bottom
+{
+    width: 100%;
+    height: 500px;
+    border: 2px blueviolet;
+}
+.logo
+{
+    height: 90px;
+    width: 200px;
+    border: 3px rgb(215, 33, 33) solid;
+    background-color: violet;
+}
+.heading
+{
+    position: fixed;
+    top: 8px;
+    left: 220px;
+    width: 1250px;
+    height: 90px;
+    border: 3px red solid;
+    background-color:violet;
+}
+.left
+{
+    position: fixed;
+    top: 120px;
+    left: 770px;
+    width: 45%;
+    height: 580px;
+    border: 3px  lightcoral solid;
+    background-color: rgb(212, 200, 224);
+    float: left;
+}
+.right
+{
+    position: fixed;
+    right: 750px;
+    width: 45%;
+    height: 580px;
+    border: 3px lightcoral solid;
+    background-color: rgb(218, 210, 225);
+    float: right;
+}
+.imgs
+{
+    width: 450px;
+    height: 300px;
+    border: 5px black dashed;
+}
+#one,#three
+{
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    border: 4px solid purple;
+}
+#two,#four
+{
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+    border: 4px purple solid;
+}
+.v
+{
+    position: fixed;
+    top: 120px;
+    right: 720px;
+    width: 50%;
+    height: 600px;
+    border: 4px solid purple;
+}
+.txt
+{
+    position: fixed;
+    top: 170px;
+    right: 750px;
+    width: 50%;
+    height: 160px;
+    border: 4px solid purple;
+    float :right;
+}
+p
+{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow' ;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-content:center;
+    line-height: 30px;
+
+}
+#one:hover,#two:hover,#three:hover,#four:hover
+{
+    transform: scale(2);
+}
+#one,#two,#three,#four
+{
+     -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.5s; 
+    -webkit-transition-timing-function: ease;
+}

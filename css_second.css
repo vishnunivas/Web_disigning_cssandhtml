@@ -1,0 +1,12 @@
+.heading
+{
+    color: green;
+    margin-left:100px;
+    background-color:blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+#head
+{
+    color: rgb(202,63,110);
+}
